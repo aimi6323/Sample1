@@ -53,13 +53,6 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         
         if let pickedImage = info[.originalImage] as? UIImage {
         
-<<<<<<< HEAD
-        if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
-            
-            
-            
-=======
->>>>>>> d1f70c623967b6853b8dd2399dd1915260ea0d37
             imageView.image = pickedImage
 
             //画面遷移
