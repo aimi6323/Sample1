@@ -12,6 +12,18 @@
 		353A418821425122009B4C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353A418621425122009B4C78 /* Main.storyboard */; };
 		353A418A21425123009B4C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353A418921425123009B4C78 /* Assets.xcassets */; };
 		353A418D21425123009B4C78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353A418B21425123009B4C78 /* LaunchScreen.storyboard */; };
+		353A419F21425312009B4C78 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 353A419421425311009B4C78 /* 3.jpg */; };
+		353A41A021425312009B4C78 /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = 353A419521425311009B4C78 /* library.png */; };
+		353A41A121425312009B4C78 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 353A419621425311009B4C78 /* back.jpg */; };
+		353A41A221425312009B4C78 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 353A419721425311009B4C78 /* camera.png */; };
+		353A41A321425312009B4C78 /* saveAlbum.png in Resources */ = {isa = PBXBuildFile; fileRef = 353A419821425311009B4C78 /* saveAlbum.png */; };
+		353A41A421425312009B4C78 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 353A419921425312009B4C78 /* 5.jpg */; };
+		353A41A521425312009B4C78 /* shareAction.png in Resources */ = {isa = PBXBuildFile; fileRef = 353A419A21425312009B4C78 /* shareAction.png */; };
+		353A41A621425312009B4C78 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 353A419B21425312009B4C78 /* 1.jpg */; };
+		353A41A721425312009B4C78 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 353A419C21425312009B4C78 /* 2.jpg */; };
+		353A41A821425312009B4C78 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 353A419D21425312009B4C78 /* 0.jpg */; };
+		353A41A921425312009B4C78 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 353A419E21425312009B4C78 /* 4.jpg */; };
+		353A41AB21425C2A009B4C78 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A41AA21425C2A009B4C78 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		353A418921425123009B4C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		353A418C21425123009B4C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		353A418E21425123009B4C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353A419421425311009B4C78 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		353A419521425311009B4C78 /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
+		353A419621425311009B4C78 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		353A419721425311009B4C78 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		353A419821425311009B4C78 /* saveAlbum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saveAlbum.png; sourceTree = "<group>"; };
+		353A419921425312009B4C78 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		353A419A21425312009B4C78 /* shareAction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareAction.png; sourceTree = "<group>"; };
+		353A419B21425312009B4C78 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		353A419C21425312009B4C78 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		353A419D21425312009B4C78 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		353A419E21425312009B4C78 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		353A41AA21425C2A009B4C78 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +78,20 @@
 		353A418121425122009B4C78 /* Instagram1 */ = {
 			isa = PBXGroup;
 			children = (
+				353A419D21425312009B4C78 /* 0.jpg */,
+				353A419B21425312009B4C78 /* 1.jpg */,
+				353A419C21425312009B4C78 /* 2.jpg */,
+				353A419421425311009B4C78 /* 3.jpg */,
+				353A419E21425312009B4C78 /* 4.jpg */,
+				353A419921425312009B4C78 /* 5.jpg */,
+				353A419621425311009B4C78 /* back.jpg */,
+				353A419721425311009B4C78 /* camera.png */,
+				353A419521425311009B4C78 /* library.png */,
+				353A419821425311009B4C78 /* saveAlbum.png */,
+				353A419A21425312009B4C78 /* shareAction.png */,
 				353A418221425122009B4C78 /* AppDelegate.swift */,
 				353A418421425122009B4C78 /* ViewController.swift */,
+				353A41AA21425C2A009B4C78 /* EditViewController.swift */,
 				353A418621425122009B4C78 /* Main.storyboard */,
 				353A418921425123009B4C78 /* Assets.xcassets */,
 				353A418B21425123009B4C78 /* LaunchScreen.storyboard */,
@@ -96,6 +132,7 @@
 				TargetAttributes = {
 					353A417E21425122009B4C78 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,9 +159,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353A41A621425312009B4C78 /* 1.jpg in Resources */,
+				353A41A321425312009B4C78 /* saveAlbum.png in Resources */,
+				353A41A521425312009B4C78 /* shareAction.png in Resources */,
+				353A41A021425312009B4C78 /* library.png in Resources */,
+				353A41A221425312009B4C78 /* camera.png in Resources */,
+				353A41A421425312009B4C78 /* 5.jpg in Resources */,
+				353A41A821425312009B4C78 /* 0.jpg in Resources */,
+				353A41A721425312009B4C78 /* 2.jpg in Resources */,
+				353A41A921425312009B4C78 /* 4.jpg in Resources */,
 				353A418D21425123009B4C78 /* LaunchScreen.storyboard in Resources */,
 				353A418A21425123009B4C78 /* Assets.xcassets in Resources */,
 				353A418821425122009B4C78 /* Main.storyboard in Resources */,
+				353A41A121425312009B4C78 /* back.jpg in Resources */,
+				353A419F21425312009B4C78 /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +185,7 @@
 			files = (
 				353A418521425122009B4C78 /* ViewController.swift in Sources */,
 				353A418321425122009B4C78 /* AppDelegate.swift in Sources */,
+				353A41AB21425C2A009B4C78 /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Vliamy.Instagram1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -307,7 +356,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Vliamy.Instagram1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
