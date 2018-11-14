@@ -49,20 +49,24 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
     }
     
     //　撮影が完了時した時に呼ばれる
-    private func imagePickerController(_ imagePicker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+    private func imagePickerController(_ imagePicker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
+        if let pickedImage = info[.originalImage] as? UIImage {
+        
+<<<<<<< HEAD
         if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
             
             
             
+=======
+>>>>>>> d1f70c623967b6853b8dd2399dd1915260ea0d37
             imageView.image = pickedImage
-            
+
             //画面遷移
             performSegue(withIdentifier: "next", sender: nil)
             //次の画面へ値を渡しながら画面遷移する
-            
         }
-        
+
         //カメラ画面(アルバム画面)を閉じる処理
         imagePicker.dismiss(animated: true, completion: nil)
         
