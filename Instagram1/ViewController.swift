@@ -51,7 +51,8 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
     //　撮影が完了時した時に呼ばれる
     private func imagePickerController(_ imagePicker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         
-        if let pickedImage : [UIImage] = info[.originalImage] as? UIImage {
+        if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
+            
             
             
             imageView.image = pickedImage
